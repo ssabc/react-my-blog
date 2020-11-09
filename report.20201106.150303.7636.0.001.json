@@ -1,0 +1,511 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20201106.150303.7636.0.001.json",
+    "dumpEventTime": "2020-11-06T15:03:03Z",
+    "dumpEventTimeStamp": "1604646183546",
+    "processId": 7636,
+    "cwd": "D:\\ot-work\\pros\\react-app-ts",
+    "commandLine": [
+      "D:\\nodejs\\node.exe",
+      "D:\\ot-work\\pros\\react-app-ts\\node_modules\\_react-scripts@4.0.0@react-scripts\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.16.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.0",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 2670875,
+        "nice": 0,
+        "sys": 1262312,
+        "idle": 17937718,
+        "irq": 33078
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 2877531,
+        "nice": 0,
+        "sys": 1735390,
+        "idle": 17257328,
+        "irq": 42031
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 2756171,
+        "nice": 0,
+        "sys": 1258093,
+        "idle": 17855984,
+        "irq": 11562
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 3027140,
+        "nice": 0,
+        "sys": 1206343,
+        "idle": 17636765,
+        "irq": 12984
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 2621453,
+        "nice": 0,
+        "sys": 1503984,
+        "idle": 17744812,
+        "irq": 10750
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 2929843,
+        "nice": 0,
+        "sys": 1863187,
+        "idle": 17077218,
+        "irq": 11453
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 3305875,
+        "nice": 0,
+        "sys": 1408796,
+        "idle": 17155578,
+        "irq": 10468
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+        "speed": 2394,
+        "user": 3247531,
+        "nice": 0,
+        "sys": 1610171,
+        "idle": 17012546,
+        "irq": 9734
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "28:6e:d4:88:c6:e1",
+        "address": "fe80::5930:e2c5:779a:c920",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "28:6e:d4:88:c6:e1",
+        "address": "172.16.70.118",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DEV002"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7692919f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff769295e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff769294dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff76939364b",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff769baa11e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff769b921f1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff769a5e74c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff769a699a0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff769a664c4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff769a5bce3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff769a5a354",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff769a7b53d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff7697e0e21",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff769ff4fad",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000011578e998e9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2154430464,
+    "totalCommittedMemory": 2154430464,
+    "usedMemory": 2144861712,
+    "availableMemory": 47683656,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094912,
+        "used": 219512,
+        "available": 1875400
+      },
+      "old_space": {
+        "memorySize": 2082881536,
+        "committedMemory": 2082881536,
+        "capacity": 2078822160,
+        "used": 2078493648,
+        "available": 328512
+      },
+      "code_space": {
+        "memorySize": 3313664,
+        "committedMemory": 3313664,
+        "capacity": 2915136,
+        "used": 2915136,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3936256,
+        "committedMemory": 3936256,
+        "capacity": 3528880,
+        "used": 3528880,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 59219968,
+        "committedMemory": 59219968,
+        "capacity": 59127440,
+        "used": 59127440,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094912,
+        "used": 0,
+        "available": 2094912
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 390.437,
+    "kernelCpuSeconds": 129.265,
+    "cpuConsumptionPercent": 26.2343,
+    "maxRss": 3548368896,
+    "pageFaults": {
+      "IORequired": 1563182,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 10915,
+      "writes": 896
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\szhao\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "cl": "C:/Program Files/Git/MP8",
+    "CLASSPATH": ".\\;D:\\JDK14.0.2\\lib\\dt.jar;\\D:\\JDK14.0.2\\lib\\tools.jar;D:\\JDK14.0.2\\bin;D:\\JDK14.0.2\\lib;",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DEV002",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "dp0": "D:\\ot-work\\pros\\react-app-ts\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\szhao",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\szhao",
+    "HOSTNAME": "DEV002",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "INIT_CWD": "D:\\ot-work\\pros\\react-app-ts",
+    "JAVA_HOME": "D:\\JDK14.0.2",
+    "LANG": "zh_CN.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\szhao\\AppData\\Local",
+    "LOGONSERVER": "\\\\SLAVEAD",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NODE": "D:\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_PATH": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_cache": "D:\\nodejs\\node_cache",
+    "npm_config_ignore_engines": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_prefix": "D:\\nodejs\\node_global",
+    "npm_config_registry": "https://registry.npm.taobao.org",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "D:\\nodejs\\node_global\\node_modules\\yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-scripts start",
+    "npm_node_execpath": "D:\\nodejs\\node.exe",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_antd": "^4.7.3",
+    "npm_package_dependencies_react": "^17.0.1",
+    "npm_package_dependencies_react_dom": "^17.0.1",
+    "npm_package_dependencies_react_router": "^5.2.0",
+    "npm_package_dependencies_react_router_dom": "^5.2.0",
+    "npm_package_dependencies_react_scripts": "4.0.0",
+    "npm_package_dependencies_typescript": "^4.0.3",
+    "npm_package_dependencies_web_vitals": "^0.2.4",
+    "npm_package_dependencies__testing_library_jest_dom": "^5.11.4",
+    "npm_package_dependencies__testing_library_react": "^11.1.0",
+    "npm_package_dependencies__testing_library_user_event": "^12.1.10",
+    "npm_package_dependencies__types_enzyme": "^3.10.8",
+    "npm_package_dependencies__types_jest": "^26.0.15",
+    "npm_package_dependencies__types_node": "^12.0.0",
+    "npm_package_dependencies__types_react": "^16.9.53",
+    "npm_package_dependencies__types_react_dom": "^16.9.8",
+    "npm_package_dependencies__types_react_router_dom": "^5.1.6",
+    "npm_package_description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "npm_package_devDependencies_node_sass": "^4.14.1",
+    "npm_package_devDependencies_react_scripts_ts": "^3.1.0",
+    "npm_package_devDependencies_sass_loader": "^10.0.4",
+    "npm_package_eslintConfig_extends_0": "react-app",
+    "npm_package_eslintConfig_extends_1": "react-app/jest",
+    "npm_package_license": "ISC",
+    "npm_package_main": "index.js",
+    "npm_package_name": "react-app-ts",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_package_scripts_test": "react-scripts test",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OC_HOME": "C:\\openshift",
+    "OLDPWD": "D:/",
+    "OneDrive": "C:\\Users\\Administrator\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\szhao\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\PuTTY;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32\\HwSysPrep;C:\\Program Files\\TortoiseGit\\bin;C:\\openshift;C:\\ProgramData\\chocolatey\\bin;D:\\nodejs;D:\\nodejs\\node_global;D:\\nodejs\\node_cache;D:\\nodejs\\node_global\\node_modules;D:\\JDK14.0.2\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Users\\szhao\\AppData\\Local\\Microsoft\\WindowsApps",
+    "ORIGINAL_TEMP": "C:/Users/szhao/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/szhao/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\szhao\\AppData\\Local\\Temp\\yarn--1604644199490-0.8548865586391658;D:\\ot-work\\pros\\react-app-ts\\node_modules\\.bin;C:\\Users\\szhao\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;D:\\nodejs\\node_global\\bin;D:\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;D:\\lib\\node_modules\\npm\\bin\\node-gyp-bin;D:\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\szhao\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\szhao\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\PuTTY;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32\\HwSysPrep;C:\\Program Files\\TortoiseGit\\bin;C:\\openshift;C:\\ProgramData\\chocolatey\\bin;D:\\nodejs;D:\\nodejs\\node_global;D:\\nodejs\\node_cache;D:\\nodejs\\node_global\\node_modules;D:\\JDK14.0.2\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Users\\szhao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4f01",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "D:/ot-work/pros/react-app-ts",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\szhao\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\szhao\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\szhao\\AppData\\Local\\Temp",
+    "USERDNSDOMAIN": "VDS.KEFA.COM",
+    "USERDOMAIN": "VDS",
+    "USERDOMAIN_ROAMINGPROFILE": "VDS",
+    "USERNAME": "szhao",
+    "USERPROFILE": "C:\\Users\\szhao",
+    "WEBPACK_DEV_SERVER": "true",
+    "WINDIR": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "D:/nodejs/node",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "D:\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\Program Files\\Huawei\\HDPServer\\CommHookLoader_x64.dll",
+    "C:\\Program Files\\Huawei\\HDPServer\\DevicePathHook_x64.dll",
+    "C:\\WINDOWS\\System32\\Setupapi.dll",
+    "C:\\WINDOWS\\System32\\OleAut32.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\Program Files\\Huawei\\HDPServer\\hdpahook64.dll",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "\\\\?\\D:\\ot-work\\pros\\react-app-ts\\node_modules\\_node-sass@4.14.1@node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
