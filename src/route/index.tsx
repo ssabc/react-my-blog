@@ -1,9 +1,10 @@
 import React, { Component, lazy, Suspense  } from 'react'
-import { Router, Switch,Route,Redirect} from 'react-router-dom'
+import { Router, Switch,Route,Redirect } from 'react-router-dom'
 import HeaderComp from '../views/layouts/header'
 import FooterComp from '../views/layouts/footer'
 import Home from '../views/layouts/home'
 import AboutMe from '../views/aboutMe'
+import ArticleDetail from '../views/articles/detail'
 import Articles from '../views/articles'
 
 import { createHashHistory } from 'history';
@@ -18,6 +19,7 @@ class Routes extends Component{
                     <Route path="/" exact component={Home}></Route>
                     <Route path="/aboutMe" component={AboutMe}></Route>
                     <Route path="/article" component={Articles}></Route>
+                    <Route path="/detail/:id" component={ArticleDetail}></Route>
                 </Switch>
                 <FooterComp></FooterComp>
                 <div className="video-bg">

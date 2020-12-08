@@ -1,44 +1,47 @@
-import React from 'react';
-class Clock extends React.Component {
-  timerID: any;
-  state = {
-    date: new Date()};
+import React, { useState, useEffect }from 'react';
+function Example() {
+  let timerID = null
+  const [count, setCount] = useState(0);
+  const [date, setDate] = useState(new Date());
 
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.tick(),
+  // 相当于 componentDidMount 和 componentDidUpdate:
+  useEffect(() => {
+    // 使用浏览器的 API 更新页面标题
+    document.title = `You clicked ${count} times`;
+  });
+
+  useEffect(() => {
+    timerID = setInterval(
+      () =>{
+        setDate(new Date())
+      },
       1000
     );
-  }
+    return () => {
+      clearInterval(timerID);
+    };
+  });
 
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  tick() {
-    this.setState({
-      date: new Date()
-    });
-  }
-
-  render() {
-    return (
+  return (
+    <div>
       <div>
         <div>
-          <span>It is {this.state.date.toLocaleTimeString()}</span>
+          <span>It is {date.toLocaleTimeString()}</span>
         </div>
       </div>
-    );
-  }
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
 }
-
-
   export default function () {
     return <div className="App-home">
       <div className="mian-content">
         <div className="show-tip">
           <div>你好，有缘人！</div>
-          <Clock></Clock>
+          <Example></Example>
         </div>
         <div className="leave leave-1"></div>
         <div className="leave leave-2"></div>
