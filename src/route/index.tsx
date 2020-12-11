@@ -20,6 +20,7 @@ class Routes extends Component{
                     <Route path="/aboutMe" component={AboutMe}></Route>
                     <Route path="/article" component={Articles}></Route>
                     <Route path="/detail/:id" component={ArticleDetail}></Route>
+                    <Redirect to="/" />
                 </Switch>
                 <FooterComp></FooterComp>
                 <div className="video-bg">
